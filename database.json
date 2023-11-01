@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "firstName": "Nguyen",
+      "lastName": "Loc",
+      "email": "admin@gmail.com",
+      "phone": "1234567891",
+      "townCity": "Hà Nội",
+      "userName": "XXXX",
+      "password": "admin",
+      "confirmPassword": "admin",
+      "role": "admin",
+      "isActive": true,
+      "id": 1
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "test",
+      "email": "admin1@gmail.com",
+      "phone": "1234567891",
+      "townCity": "Hà Nội",
+      "userName": "XXXX",
+      "password": "admin",
+      "confirmPassword": "admin",
+      "role": "user",
+      "isActive": false,
+      "id": 2
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "ABC",
+      "email": "2@gmail.com",
+      "phone": "1234567892",
+      "townCity": "Hà Nội",
+      "userName": "ABCDEF",
+      "password": "123456",
+      "role": "user",
+      "confirmPassword": "123456",
+      "isActive": true,
+      "id": 3
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Trường Nguyệt Tẫn Minh",
+      "type": "Tình cảm",
+      "time": "120",
+      "year": "2023",
+      "status": 0,
+      "director": "Kuk Kok-Leung",
+      "language": "Tiếng Việt",
+      "national": "Trung Quốc",
+      "actors": "Bạch Lộc, La Vân Hy, Trần Đô Linh, Tôn Trân Ny",
+      "original_title": "Till The End Of The Moon",
+      "time_show": [
+        "2023-10-28T18:30",
+        "2023-10-29T04:28"
+      ],
+      "chair_type": [
+        {
+          "type": "Vip",
+          "price": 123
+        },
+        {
+          "type": "Standard",
+          "price": 456
+        }
+      ],
+      "description": "Trường Nguyệt Tẫn MinhTrường Nguyệt Tẫn Minh - Till The End Of The Moon (2023) kể về lúc bấy giờ, thế giới bị ma thần Đạm Đài Tẫn đọa đày chìm trong giết chóc. Con gái của chưởng môn phái Hành Dương tông là Lê Tô Tô nhận sứ mệnh trở lại 500 năm trước, hóa thân thành tam tiểu thư Diệp Tịch Vụ của Diệp gia, ngăn cản Đạm Đài Tẫn trước khi hắn trở thành ma thần. 500 năm trước, Đạm Đài Tẫn hãy còn là một phàm nhân thân cô thế cô, là con tin của Chu quốc, là trượng phu của Diệp Tịch Vụ. Hắn còn chưa có bị tà niệm ăn mòn hoàn toàn. Bởi vậy, nàng sẽ phải lợi dụng lúc ma thần ở trong trạng thái tình cảm yếu ớt nhất, đâm 9 cây đinh diệt hồn vào trong cơ thể hắn. Khi Diệp Tịch Vụ và Đạm Đài Tẫn đã yêu nhau, nàng tìm thời cơ, đâm diệt hồn đinh xong là có thể hoàn thành sứ mệnh. Lại chẳng ngờ thành công đã ở trước mắt lại hoàn toàn tan biến, Diệp Tịch Vụ đành phải nhảy lầu tự sát."
+    },
+    {
+      "id": 2,
+      "title": "Big Hero 6",
+      "type": "",
+      "time": "",
+      "year": "",
+      "status": 0,
+      "director": "Nguyen Van A",
+      "language": "VietNam",
+      "national": "VietNam",
+      "actors": "Nguyen Van A",
+      "original_title": "Big hero6 ",
+      "time_show": [
+        "2023-10-28T20:26",
+        "2023-10-28T22:27"
+      ],
+      "chair_type": [
+        {
+          "type": "Standard",
+          "price": 50
+        }
+      ],
+      "description": "Hiiiiiiii"
+    },
+    {
+      "id": 3,
+      "title": "123",
+      "type": "",
+      "time": "",
+      "year": "",
+      "status": 0,
+      "director": "123",
+      "language": "VietNam",
+      "national": "VietNam",
+      "actors": "123",
+      "original_title": "123",
+      "time_show": [
+        "2023-10-28T21:45"
+      ],
+      "chair_type": [
+        {
+          "type": "Vip",
+          "price": "123"
+        },
+        {
+          "type": "Standard",
+          "price": "456"
+        }
+      ],
+      "description": "12323312"
+    },
+    {
+      "id": 4,
+      "title": "a",
+      "type": "",
+      "time": "123",
+      "year": "",
+      "status": 0,
+      "director": "34",
+      "language": "VietNam",
+      "national": "VietNam",
+      "actors": "43",
+      "original_title": "a",
+      "time_show": [
+        "2023-10-28T21:48"
+      ],
+      "chair_type": [
+        {
+          "type": "Vip",
+          "price": "123"
+        },
+        {
+          "type": "Standard",
+          "price": "456"
+        }
+      ],
+      "description": "43"
+    }
+  ],
+  "bills": [
+    {
+      "cart": [
+        {
+          "movie_id": "1",
+          "date": "2023-10-28",
+          "seat": [
+            "C7",
+            "B8",
+            "B7",
+            "B6"
+          ],
+          "time": "17:30",
+          "price": 1491,
+          "movie_title": "Trường Nguyệt Tẫn Minh",
+          "movie_original_title": "Till The End Of The Moon"
+        },
+        {
+          "movie_id": "1",
+          "date": "2023-10-28",
+          "seat": [
+            "C1",
+            "B2",
+            "B11",
+            "F2"
+          ],
+          "time": "17:30",
+          "price": 1491,
+          "movie_title": "Trường Nguyệt Tẫn Minh",
+          "movie_original_title": "Till The End Of The Moon"
+        }
+      ],
+      "full_name": "Trinh1 Quynh",
+      "phone": "1234567890",
+      "email": "1@gmail.com",
+      "address": "Hà Nội",
+      "user_id": 2,
+      "date_checkout": "2023-10-28",
+      "id": 1
+    },
+    {
+      "cart": [
+        {
+          "movie_id": "1",
+          "date": "2023-10-28",
+          "seat": [
+            "D10",
+            "B12"
+          ],
+          "time": "18:30",
+          "price": 579,
+          "movie_title": "Trường Nguyệt Tẫn Minh",
+          "movie_original_title": "Till The End Of The Moon"
+        }
+      ],
+      "full_name": "Trinh1 Quynh",
+      "phone": "1234567890",
+      "email": "1@gmail.com",
+      "address": "Hà Nội",
+      "user_id": 2,
+      "date_checkout": "2023-10-28",
+      "id": 2
+    },
+    {
+      "cart": [
+        {
+          "movie_id": "1",
+          "date": "2023-10-29",
+          "seat": [
+            "B8",
+            "C7",
+            "B6"
+          ],
+          "time": "04:28",
+          "price": 1035,
+          "movie_title": "Trường Nguyệt Tẫn Minh",
+          "movie_original_title": "Till The End Of The Moon"
+        }
+      ],
+      "full_name": "Nguyen ABC",
+      "phone": "1234567892",
+      "email": "2@gmail.com",
+      "address": "Hà Nội",
+      "user_id": 3,
+      "date_checkout": "2023-10-28",
+      "id": 3
+    }
+  ]
+}
